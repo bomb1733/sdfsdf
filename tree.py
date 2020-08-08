@@ -74,3 +74,21 @@ for i in range(10):
         continue
     print(i)
 """
+"""
+for a in range(2, 10):
+    for b in range(1, 10):
+        print("{} * {} = {}" .format(a, b, a*b))
+"""
+"""
+        소수구하기
+        1, 과 자기자신 소수
+        input 받고 소수다 아니다 판별
+"""
+
+1과 자기 자신만 나누었을때 나머지가 0이다.
+
+a = int(input())
+    for b in range(1, 100000000)
+con1 = a % 1 == 0
+con2 = a % a  == 0
+con3 = a % b  != 0
